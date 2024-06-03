@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1713601929897,
+      "tag": "0000_petite_captain_america",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1713605877295,
+      "tag": "0001_eminent_stone_men",
+      "breakpoints": true
+    }
+  ]
+}

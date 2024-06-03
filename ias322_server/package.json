@@ -1,0 +1,32 @@
+{
+  "name": "ias322_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "introspect": "drizzle-kit introspect:pg",
+    "dev": "nodemon dist/app.js",
+    "generate": "drizzle-kit generate:pg",
+    "migrate": "tsx src/migrate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "drizzle-orm": "^0.30.8",
+    "express": "^4.19.2",
+    "openai": "^4.38.2",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.20.14",
+    "nodemon": "^3.1.0",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}

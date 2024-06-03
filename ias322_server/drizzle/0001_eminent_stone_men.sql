@@ -1,0 +1,1 @@
+ALTER TABLE "answer" ALTER COLUMN "answer" SET DATA TYPE text;
